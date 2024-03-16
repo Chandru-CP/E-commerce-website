@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeff3;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header ul{
+    display: flex;
+    margin-bottom: 0;
+}
+header ul li{
+    margin-right: 10px;
+}
+li{
+    list-style: none;
+}
+.glow:hover {
+    border: 1px solid #fff; /* Adjust border properties as needed */
+}
+  
+.logo{
+    width: 150px;
+}
+.form{
+    position: relative;
+    border-color: #7abaff;
+}
+input:focus {
+    border-color: blue; /* Change border color on focus */
+    box-shadow: 0 0 5px blue; /* Change box shadow color on focus */
+  }
+.form .fa-microphone{
+    position: absolute;
+    top:10px;
+    left: 20px;
+    color: #9ca3af;
+}
+ul{
+    padding-left: 0;
+}
+.small{
+    color: #b1b2b5;
+}
+.form span{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    padding: 2px;
+    border-left: 1px solid #9ca3af;
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan i{
+   
+   padding-left: 10px;
+}
+
+.form-input{
+
+    height: 35px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
+}
+.left-navbar{
+    list-style-type: none;
+    width: 70%;
+    float: left;
+    padding: 0;
+    margin-bottom: 0;
+}
+.left-navbar li{
+   margin: 10px;
+    float: left;
+}
+.left-navbar ul li{
+    float: left;
+}
+.right-navbar{
+    float: right;    
+    width: 25%;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+.right-navbar li{
+   margin: 10px;
+    float: right;
+}
+.right-navbar ul li{
+    float: right;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 10px;
+    padding: 10px;
+}
+.item{
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+}
+.card{
+    border-color: white;       
+    background-color: white;  
+    border-radius: 0;  
+    align-items: center;
+}
+h5{
+    position: relative;
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+.card-title{
+    display: flex;
+    font-size: smaller;
+    margin: 10px;
+}
+#sticky-element {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Adjust z-index as needed */
+  }
+  .sticky {
+    position: fixed;
+    width: 100%; /* Optionally set a fixed width */
+  }
+.slick-track{  
+  transform: (42px, 0px, 0px);
+  }
+.footer{
+    padding: 10px;
+}
+.topbut{
+    width: 100%;
+    background-color: gray;
+    color: white;
+    border: none;
+}
+.col-md-3{
+    padding: 20px 50px;
+    background-color: white;
+}
+.offer{
+    padding: 1px 4px;
+    border-radius: 7px;
+}
+.zoom-effect {
+    overflow: hidden;
+    position: relative;
+    width: 300px; /* Adjust image width */
+}
+
+.zoom-effect img {
+    transition: transform 0.3s ease;
+}
+
+.zoom-effect img:hover {
+    transform: scale(1.2); /* Adjust zoom level */
+}
